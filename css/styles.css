@@ -1,0 +1,193 @@
+/* common styles */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #22343d;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* common styles end */
+
+/* header styles start */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 237px;
+  display: flex;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.header-logo-image {
+  margin-right: 16px;
+}
+
+.header-logo-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 73px;
+}
+
+.header-nav-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.link,
+.list-button {
+  color: #22343d;
+  padding: 26px 0;
+}
+
+.list-item-product {
+  font-weight: 600;
+}
+
+.sign-buttons {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.sign-buttons-items {
+}
+
+.sign-in-button {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  background-color: #fff;
+  min-width: 105px;
+  height: 42px;
+  padding: 9px 24px;
+}
+
+.sign-up-button {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+  border-radius: 4px;
+  min-width: 113px;
+  height: 42px;
+  border: none;
+  height: 42px;
+  padding: 9px 24px;
+}
+
+/* header styles end */
+
+/* main styles start */
+
+/* hero section styles start */
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  display: block;
+  max-width: 452px;
+  padding-top: 112px;
+  margin-bottom: 18px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  display: block;
+  max-width: 465px;
+  margin-bottom: 45px;
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-list-item {
+  padding-bottom: 112px;
+}
+
+.start-button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+  min-width: 178px;
+  min-height: 53px;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 42px 14px 42px;
+}
+
+.video-button {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  border: none;
+  background-color: #fff;
+  min-width: 164px;
+  min-height: 23px;
+}
