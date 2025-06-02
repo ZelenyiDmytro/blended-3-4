@@ -413,6 +413,10 @@ button {
 
 /* quick&easy process section styles start */
 
+.process-section-container {
+  margin-bottom: 100px;
+}
+
 .process-section-title {
   font-weight: 700;
   font-size: 32px;
@@ -430,37 +434,6 @@ button {
   margin: 0 auto;
 }
 
-.process-section-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-bottom: 50px;
-  justify-content: space-around;
-  gap: 100px;
-}
-
-.process-section-list-item {
-  display: flex;
-  flex: row;
-}
-
-.process-section-list-item-text {
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-  fill: #fff;
-  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
-  box-sizing: border-box;
-}
-
-.process-section-list-item-style {
-  display: flex;
-  flex-direction: row;
-  width: 408px;
-  height: 98px;
-  justify-content: space-evenly;
-}
-
 .process-section-button {
   font-weight: 700;
   font-size: 16px;
@@ -471,22 +444,100 @@ button {
   display: block;
   min-width: 216px;
   min-height: 53px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 15px 31px 14px 30px;
 }
 
-.first-two {
+.process-section-list {
   display: flex;
-  flex-direction: row;
-  gap: 91px;
-  margin: 0 auto;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
-.second-two {
+.expert {
   display: flex;
-  flex-direction: row;
-  gap: 100px;
-  margin: 0 auto;
-  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  margin-right: 100px;
 }
+
+.expert.reverse {
+  flex-direction: row-reverse;
+}
+
+.bubble {
+  background: #ffffff;
+  padding: 15px 25px;
+  border-radius: 999px;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #2f281e;
+}
+
+/* quick&easy process section styles ends */
+
+/* content strategies section styles start */
+
+.strategies-section-container {
+  margin-bottom: 171px;
+}
+
+.strategies-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.strategies-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  margin-bottom: 40px;
+  max-width: 465px;
+}
+
+.strategies-list {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.strategies-list-item {
+  border-radius: 8px;
+  border: 1px solid #dedede;
+}
+
+.strategies-list-image {
+  margin-bottom: 24px;
+}
+
+.strategies-list-date {
+  margin-bottom: 12px;
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.strategies-list-subtitle {
+  max-width: 296px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.wahid-ari {
+  font-weight: 700;
+}
+
+.motivation-text {
+  color: #02897a;
+}
+
+/* content strategies section styles end */
