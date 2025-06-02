@@ -161,12 +161,13 @@ button {
 
 .hero-list {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 30px;
 }
 
-.hero-list-item {
-  padding-bottom: 112px;
+.play-button {
+  margin-right: 9px;
 }
 
 .start-button {
@@ -226,6 +227,10 @@ button {
   display: flex;
   gap: 30px;
   margin-bottom: 50px;
+}
+
+.hero-list-icon {
+  margin-bottom: 26px;
 }
 
 .product-list-item {
@@ -349,6 +354,25 @@ button {
 }
 
 .customer-support-list-item {
+  max-width: 450px;
+}
+
+.customer-support-icon-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.customer-support-icon {
+  margin-right: 30px;
+}
+
+.cs-icon {
+  padding-top: 8px;
+  padding-bottom: 9px;
+}
+
+.cs-text {
   max-width: 386px;
 }
 
@@ -541,3 +565,314 @@ button {
 }
 
 /* content strategies section styles end */
+
+/* price table section start */
+
+.price-section-container {
+  margin-bottom: 100px;
+}
+
+.price-section-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price-section-description {
+  font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.price-section-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 72px;
+}
+
+.price-section-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    min-width: 322px;
+    min-height: 456px;
+}
+
+.price-section-middle-card {
+  border-radius: 8px;
+    min-width: 322px;
+    min-height: 456px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+      background-color: #02897a;
+}
+
+.price-section-first-subtitle {
+  font-size: 24px;
+    line-height: 1.67;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
+
+.price-section-middle-subtitle {
+  font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 1.67;
+    color: #ffffff;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.price-section-subtitle {
+  font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 1.67;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.price-section-pay-method {
+  font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 2.5;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.price-section-middle-pay-method {
+  font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.amount {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+    position: relative;
+}
+
+.currency {
+  font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    position: absolute;
+    left: 58px;
+    top: 28px;
+}
+
+.per-month {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.amount-middle {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.currency-middle {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #ffffff;
+    position: absolute;
+    left: 58px;
+    top: 22px;
+}
+
+.per-month-middle {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+    margin-left: 10px;
+}
+
+.currency-third {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    position: absolute;
+    left: 86px;
+    top: 22px;
+}
+
+.price-section-price {
+  text-align: center;
+}
+
+.price-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.price-section-middle-list {
+  display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.price-section-list-item-text {
+  font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.price-section-button {
+  display: block;
+  border-radius: 8px;
+    min-width: 139px;
+    min-height: 44px;
+    background-color: #02897a;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: #ffffff;
+      margin: 0 auto;
+      padding: 11px 18px;
+}
+
+.price-section-middle-button {
+  display: block;
+    border-radius: 8px;
+    min-width: 139px;
+    min-height: 44px;
+    background-color: #ffffff;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #02897a;
+    margin: 0 auto;
+    padding: 11px 18px;
+}
+
+/* price table section end */
+
+/* what clients says section styles start */
+
+.clients-says-container {
+  margin-bottom: 100px;
+}
+
+.clients-says-title {
+  font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clients-says-subtitle {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 537px;
+    margin-left: 286px;
+    margin-right: 286px;
+    margin-bottom: 40px;
+}
+
+.clients-says-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 64px;
+}
+
+.clients-says-list-item {
+  width: calc((100% - 128px) / 3);
+}
+
+.clients-says-box-review {
+  font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    border: 1px solid #dedede;
+      border-radius: 5px;
+}
+
+.clients-says-icon {
+  margin-left: 28px;
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+.clients-says-review {
+  display: block;
+  max-width: 275px;
+  margin-bottom: 16px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.clients-says-photo-name {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 28px;
+}
+
+.clients-says-photo {
+  margin-left: 26px;
+  margin-right: 14px;
+}
+
+.clients-says-client-name {
+  font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.clients-says-client-job {
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}

@@ -78,9 +78,14 @@
                 <button class="start-button" type="button">Get started</button>
               </li>
               <li class="hero-list-item">
-                <button class="video-button" type="button">
-                  Watch the Video
-                </button>
+                <div class="play-button-icon">
+                  <button class="video-button" type="button">
+                    <svg class="play-button" width="20" height="18">
+                      <use href="./images/icons.svg#icon-Triangle-Copy-6"></use>
+                    </svg>
+                    Watch the Video
+                  </button>
+                </div>
               </li>
             </ul>
           </div>
@@ -105,24 +110,36 @@
           <h2 class="product-title">Product was Built Specifically for You</h2>
           <ul class="product-list">
             <li class="product-list-item">
+              <svg class="hero-list-icon" width="54" height="54">
+                <use href="./images/icons.svg#icon-icon-1"></use>
+              </svg>
               <h3 class="product-list-subtitle">First click tests</h3>
               <p class="product-list-text">
                 While most people enjoy casino gambling
               </p>
             </li>
             <li class="product-list-item">
+              <svg class="hero-list-icon" width="54" height="54">
+                <use href="./images/icons.svg#icon-icon-2"></use>
+              </svg>
               <h3 class="product-list-subtitle">Design surveys</h3>
               <p class="product-list-text">
                 Sports betting, lottery and bingo playing for the fun
               </p>
             </li>
             <li class="product-list-item">
+              <svg class="hero-list-icon" width="54" height="54">
+                <use href="./images/icons.svg#icon-icon-3"></use>
+              </svg>
               <h3 class="product-list-subtitle">Preference tests</h3>
               <p class="product-list-text">
                 The Myspace page defines the individual.
               </p>
             </li>
             <li class="product-list-item">
+              <svg class="hero-list-icon" width="54" height="54">
+                <use href="./images/icons.svg#icon-icon-4"></use>
+              </svg>
               <h3 class="product-list-subtitle">Five second tests</h3>
               <p class="product-list-text">
                 Personal choices and the overall personality of the person.
@@ -193,20 +210,47 @@
             </p>
             <ul class="customer-support-list">
               <li class="customer-support-list-item">
-                <p class="customer-support-features">
-                  Never worry about overpaying for your energy again.
-                </p>
+                <div class="customer-support-icon-text">
+                  <div class="cs-icon">
+                    <svg class="customer-support-icon" width="35" height="35">
+                      <use href="./images/icons.svg#icon-icon-5"></use>
+                    </svg>
+                  </div>
+                  <div class="cs-text">
+                    <p class="customer-support-features">
+                      Never worry about overpaying for your energy again.
+                    </p>
+                  </div>
+                </div>
               </li>
               <li class="customer-support-list-item">
-                <p class="customer-support-features">
-                  We will only switch you to energy companies that we trust and
-                  will treat you right
-                </p>
+                <div class="customer-support-icon-text">
+                  <div class="cs-icon">
+                    <svg class="customer-support-icon" width="35" height="35">
+                      <use href="./images/icons.svg#icon-icon-6"></use>
+                    </svg>
+                  </div>
+                  <div class="cs-text">
+                    <p class="customer-support-features">
+                      We will only switch you to energy companies that we trust
+                      and will treat you right
+                    </p>
+                  </div>
+                </div>
               </li>
               <li class="customer-support-list-item">
-                <p class="customer-support-features">
-                  We track the markets daily and know where the savings are.
-                </p>
+                <div class="customer-support-icon-text">
+                  <div class="cs-icon">
+                    <svg class="customer-support-icon" width="35" height="35">
+                      <use href="./images/icons.svg#icon-icon-7"></use>
+                    </svg>
+                  </div>
+                  <div class="cs-text">
+                    <p class="customer-support-features">
+                      We track the markets daily and know where the savings are.
+                    </p>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -412,53 +456,82 @@
       <!--Початок секції price table-->
 
       <section>
-        <h2>Price Table</h2>
-        <p>We offer competitive price</p>
-        <h3>Free</h3>
-        <p>Brief price description</p>
-        <p>0$ Per / month</p>
-        <ul>
-          <li>
-            <p>Only 2 Operators</p>
-          </li>
-          <li>
-            <p>Notifications</p>
-          </li>
-          <li>
-            <p>Landing Pages</p>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
-        <h3>Standard</h3>
-        <p>Brief price description</p>
-        <p>5$ Per / month</p>
-        <ul>
-          <li>
-            <p>5+ Operators</p>
-          </li>
-          <li>
-            <p>Notifications</p>
-          </li>
-          <li>
-            <p>Landing Pages</p>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
-        <h3>Premium</h3>
-        <p>Brief price description</p>
-        <p>10$ Per / month</p>
-        <ul>
-          <li>
-            <p>10+ Operators</p>
-          </li>
-          <li>
-            <p>Notifications</p>
-          </li>
-          <li>
-            <p>Landing Pages</p>
-          </li>
-        </ul>
-        <button type="button">Order Now</button>
+        <div class="container price-section-container">
+          <h2 class="price-section-title">Price Table</h2>
+          <p class="price-section-description">We offer competitive price</p>
+          <div class="price-section-cards">
+            <div class="price-section-card">
+              <h3 class="price-section-first-subtitle">Free</h3>
+              <p class="price-section-pay-method">Brief price description</p>
+              <p class="price-section-price">
+                <span class="amount">0<span class="currency">$</span></span>
+                <span class="per-month">Per / month</span>
+              </p>
+              <ul class="price-section-list">
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">Only 2 Operators</p>
+                </li>
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">Notifications</p>
+                </li>
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">Landing Pages</p>
+                </li>
+              </ul>
+              <button class="price-section-button" type="button">
+                Order Now
+              </button>
+            </div>
+            <div class="price-section-middle-card">
+              <h3 class="price-section-middle-subtitle">Standard</h3>
+              <p class="price-section-middle-pay-method">
+                Brief price description
+              </p>
+              <p class="price-section-price">
+                <span class="amount-middle"
+                  >5<span class="currency-middle">$</span></span
+                ><span class="per-month-middle">Per / month</span>
+              </p>
+              <ul class="price-section-middle-list">
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">5+ Operators</p>
+                </li>
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">Notifications</p>
+                </li>
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">Landing Pages</p>
+                </li>
+              </ul>
+              <button class="price-section-middle-button" type="button">
+                Order Now
+              </button>
+            </div>
+            <div class="price-section-card">
+              <h3 class="price-section-subtitle">Premium</h3>
+              <p class="price-section-pay-method">Brief price description</p>
+              <p class="price-section-price">
+                <span class="amount"
+                  >10<span class="currency-third">$</span></span
+                ><span class="per-month">Per / month</span>
+              </p>
+              <ul class="price-section-list">
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">10+ Operators</p>
+                </li>
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">Notifications</p>
+                </li>
+                <li class="price-section-list-item">
+                  <p class="price-section-list-item-text">Landing Pages</p>
+                </li>
+              </ul>
+              <button class="price-section-button" type="button">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!--Кінець секції price table-->
@@ -466,55 +539,90 @@
       <!--Початок секції what clients says-->
 
       <section>
-        <h2>What Clients Say</h2>
-        <p>
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
-        </p>
-        <ul>
-          <li>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <img
-              src="./images/wahid-ari.png"
-              alt="wahid-ari"
-              width="50"
-              height="50"
-            />
-            <p>Wahid Ari</p>
-            <p>Designer</p>
-          </li>
-          <li>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <img
-              src="./images/wahid-ari-1.png"
-              alt="wahid-ari-1"
-              width="50"
-              height="50"
-            />
-            <p>Wahid Ari</p>
-            <p>Designer</p>
-          </li>
-          <li>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <img
-              src="./images/wahid-ari-2.png"
-              alt="wahid-ari-2"
-              width="50"
-              height="50"
-            />
-            <p>Wahid Ari</p>
-            <p>Designer</p>
-          </li>
-        </ul>
+        <div class="container clients-says-container">
+          <h2 class="clients-says-title">What Clients Say</h2>
+          <p class="clients-says-subtitle">
+            Problems trying to resolve the conflict between<br />the two major
+            realms of Classical physics: Newtonian mechanics
+          </p>
+          <ul class="clients-says-list">
+            <li class="clients-says-list-item">
+              <div class="clients-says-box-review">
+                <svg class="clients-says-icon" width="106" height="18">
+                  <use href="./images/icons.svg#icon-stars"></use>
+                </svg>
+                <p class="clients-says-review">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+                <div class="clients-says-photo-name">
+                  <div class="clients-says-photo">
+                    <img
+                      src="./images/wahid-ari.png"
+                      alt="wahid-ari"
+                      width="50"
+                      height="50"
+                    />
+                  </div>
+                  <div class="clients-says-name">
+                    <p class="clients-says-client-name">Wahid Ari</p>
+                    <p class="clients-says-client-job">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="clients-says-list-item">
+              <div class="clients-says-box-review">
+                <svg class="clients-says-icon" width="106" height="18">
+                  <use href="./images/icons.svg#icon-stars"></use>
+                </svg>
+                <p class="clients-says-review">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+                <div class="clients-says-photo-name">
+                  <div class="clients-says-photo">
+                    <img
+                      src="./images/wahid-ari-1.png"
+                      alt="wahid-ari-1"
+                      width="50"
+                      height="50"
+                    />
+                  </div>
+                  <div class="clients-says-name">
+                    <p class="clients-says-client-name">Wahid Ari</p>
+                    <p class="clients-says-client-job">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="clients-says-list-item">
+              <div class="clients-says-box-review">
+                <svg class="clients-says-icon" width="106" height="18">
+                  <use href="./images/icons.svg#icon-stars"></use>
+                </svg>
+                <p class="clients-says-review">
+                  Product helps you see how many more days you need to work to
+                  reach your financial goal.
+                </p>
+                <div class="clients-says-photo-name">
+                  <div class="clients-says-photo">
+                    <img
+                      src="./images/wahid-ari-2.png"
+                      alt="wahid-ari-2"
+                      width="50"
+                      height="50"
+                    />
+                  </div>
+                  <div class="clients-says-name">
+                    <p class="clients-says-client-name">Wahid Ari</p>
+                    <p class="clients-says-client-job">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!--Кінець секції what clients says-->
