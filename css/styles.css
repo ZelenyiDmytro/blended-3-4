@@ -580,9 +580,9 @@ button {
 
 .price-section-description {
   font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 40px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .price-section-cards {
@@ -595,138 +595,138 @@ button {
 .price-section-card {
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-    background-color: #ffffff;
-    min-width: 322px;
-    min-height: 456px;
+  background-color: #ffffff;
+  min-width: 322px;
+  min-height: 456px;
 }
 
 .price-section-middle-card {
   border-radius: 8px;
-    min-width: 322px;
-    min-height: 456px;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-      background-color: #02897a;
+  min-width: 322px;
+  min-height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background-color: #02897a;
 }
 
 .price-section-first-subtitle {
   font-size: 24px;
-    line-height: 1.67;
-    text-align: center;
-    margin-bottom: 8px;
-    margin-top: 32px;
+  line-height: 1.67;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 32px;
 }
 
 .price-section-middle-subtitle {
   font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    line-height: 1.67;
-    color: #ffffff;
-    margin-top: 32px;
-    text-align: center;
-    margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #ffffff;
+  margin-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .price-section-subtitle {
   font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    line-height: 1.67;
-    margin-top: 32px;
-    text-align: center;
-    margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 1.67;
+  margin-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .price-section-pay-method {
   font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 2.5;
-    text-align: center;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 2.5;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .price-section-middle-pay-method {
   font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    line-height: 2.5;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .amount {
   font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 1.32;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #02897a;
-    position: relative;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+  position: relative;
 }
 
 .currency {
   font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    color: #02897a;
-    position: absolute;
-    left: 58px;
-    top: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  position: absolute;
+  left: 58px;
+  top: 28px;
 }
 
 .per-month {
   font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.188;
-    letter-spacing: 0.01em;
-    color: #afafaf;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.01em;
+  color: #afafaf;
 }
 
 .amount-middle {
   font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 76px;
-    line-height: 1.32;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #ffffff;
-    position: relative;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
 }
 
 .currency-middle {
   font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    color: #ffffff;
-    position: absolute;
-    left: 58px;
-    top: 22px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #ffffff;
+  position: absolute;
+  left: 58px;
+  top: 22px;
 }
 
 .per-month-middle {
   font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.01em;
-    color: #e0e0e0;
-    margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  margin-left: 10px;
 }
 
 .currency-third {
   font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.25;
-    letter-spacing: 0em;
-    color: #02897a;
-    position: absolute;
-    left: 86px;
-    top: 22px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  position: absolute;
+  left: 86px;
+  top: 22px;
 }
 
 .price-section-price {
@@ -742,49 +742,49 @@ button {
 
 .price-section-middle-list {
   display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-bottom: 30px;
-    color: #ffffff;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+  color: #ffffff;
 }
 
 .price-section-list-item-text {
   font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.38;
-    letter-spacing: 0.01em;
-    text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+  text-align: center;
 }
 
 .price-section-button {
   display: block;
   border-radius: 8px;
-    min-width: 139px;
-    min-height: 44px;
-    background-color: #02897a;
-    border: none;
-    font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      font-size: 18px;
-      color: #ffffff;
-      margin: 0 auto;
-      padding: 11px 18px;
+  min-width: 139px;
+  min-height: 44px;
+  background-color: #02897a;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 11px 18px;
 }
 
 .price-section-middle-button {
   display: block;
-    border-radius: 8px;
-    min-width: 139px;
-    min-height: 44px;
-    background-color: #ffffff;
-    border: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    color: #02897a;
-    margin: 0 auto;
-    padding: 11px 18px;
+  border-radius: 8px;
+  min-width: 139px;
+  min-height: 44px;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #02897a;
+  margin: 0 auto;
+  padding: 11px 18px;
 }
 
 /* price table section end */
@@ -797,23 +797,23 @@ button {
 
 .clients-says-title {
   font-size: 32px;
-    line-height: 1.78;
-    letter-spacing: 0.01em;
-    text-align: center;
-    margin-bottom: 10px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .clients-says-subtitle {
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.75;
-    letter-spacing: 0.01em;
-    text-align: center;
-    margin-bottom: 40px;
-    max-width: 537px;
-    margin-left: 286px;
-    margin-right: 286px;
-    margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 537px;
+  margin-left: 286px;
+  margin-right: 286px;
+  margin-bottom: 40px;
 }
 
 .clients-says-list {
@@ -829,11 +829,11 @@ button {
 
 .clients-says-box-review {
   font-size: 16px;
-    line-height: 1.75;
-    letter-spacing: 0.01em;
-    color: #737373;
-    border: 1px solid #dedede;
-      border-radius: 5px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+  border: 1px solid #dedede;
+  border-radius: 5px;
 }
 
 .clients-says-icon {
@@ -863,16 +863,194 @@ button {
 
 .clients-says-client-name {
   font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.01em;
-    color: #02897a;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
 }
 
 .clients-says-client-job {
   font-weight: 500;
-    font-size: 14px;
-    line-height: 1.71429;
-    letter-spacing: 0.01em;
-    color: #252b42;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+/* what clients says section styles end */
+
+/* promo section styles start */
+
+.promo-container {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 32px;
+  background-color: #02897a;
+  max-width: 968px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.promo-text-button {
+  margin-right: 10px;
+}
+
+.promo-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #ffffff;
+  max-width: 510px;
+  margin-left: 51px;
+  margin-top: 49px;
+  margin-bottom: 46px;
+}
+
+.promo-button {
+  border-radius: 8px;
+  min-width: 150px;
+  min-height: 50px;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  border: none;
+  margin-left: 51px;
+  margin-bottom: 56px;
+}
+
+.promo-image {
+  display: block;
+  object-fit: cover;
+  margin-top: 4px;
+  margin-right: 46px;
+  margin-bottom: 10px;
+}
+
+/* promo section styles end */
+
+/* footer styles start */
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.footer-logo-link {
+  display: flex;
+  flex-direction: row;
+  max-width: 178px;
+  max-height: 36px;
+  margin-right: 146px;
+}
+
+.footer-logo-image-part {
+  margin-right: 16px;
+}
+
+.footer-logo-text-part {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+  margin-top: 4px;
+}
+
+.footer-social-media-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  position: absolute;
+  top: 54px;
+}
+
+.footer-social-media-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-media-list-item-link {
+  border-radius: 50%;
+  background-color: #edfffc;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-first-list-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 129px;
+}
+
+.footer-first-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-first-list-item-text {
+  font-size: 16px;
+  line-height: 2.19;
+  color: #22343d;
+}
+
+.footer-second-list-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 83px;
+  max-width: 131px;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.footer-third-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 325px;
+}
+
+.footer-button {
+  border-radius: 4px;
+  min-width: 131px;
+  min-height: 39px;
+  max-width: 131px;
+  max-height: 39px;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #02897a;
+  padding: 8px 15px;
+  border: none;
+}
+
+.footer-aftertext {
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  margin-bottom: 40px;
 }
