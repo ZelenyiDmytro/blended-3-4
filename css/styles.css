@@ -1026,10 +1026,39 @@ button {
   margin-bottom: 8px;
 }
 
+.footer-subtitle.form {
+  margin-bottom: 30px;
+}
+
 .footer-third-list {
   display: flex;
   flex-direction: column;
   max-width: 325px;
+}
+
+.footer-number-field-lable {
+  position: relative;
+}
+
+.footer-number-field {
+  width: 325px;
+  height: 48px;
+  padding: 10px 42px;
+  display: block;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #02897a;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.footer-form-icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
 }
 
 .footer-button {
@@ -1054,3 +1083,182 @@ button {
   text-align: center;
   margin-bottom: 40px;
 }
+
+/* customer page styles start */
+/* our clients styles start */
+
+.our-clients-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 117px;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-clients-title {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.our-clients-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+/* our clients styles end */
+
+/* Why choose product styles start */
+
+.container.why-choose-product-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.why-choose-title {
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+.why-choose-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.why-choose-list-box {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  max-height: 305px;
+  margin-bottom: 68px;
+}
+
+.why-choose-list-icons {
+  margin: 32px 150px;
+}
+.why-choose-subtitle {
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.why-choose-description {
+  font-size: 16px;
+  line-height: 1.69;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-left: 38px;
+  margin-bottom: 34px;
+  max-width: 275px;
+  min-width: 108px;
+}
+
+/* Why choose product styles end */
+
+/* How product work styles start */
+
+.product-work-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-work-title {
+  margin-top: 100px;
+  margin-bottom: 73px;
+}
+
+.product-work-list-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.product-work-list-image {
+  margin-right: 89px;
+}
+.product-work-list-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+.text-part-step {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.text-part-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.text-part-description {
+  font-size: 16px;
+  line-height: 1.75;
+  max-width: 445px;
+}
+
+.text-part-description.first {
+  max-width: 438px;
+}
+
+.text-part-description.third {
+  max-width: 438px;
+}
+
+.product-work-list-item-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 100px;
+}
+
+.product-work-list-image-reverse {
+  margin-left: 76px;
+}
+
+.product-work-list-text-reverse {
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+}
+
+.product-work-list-text-third {
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+}
+
+.product-work-list-item.third {
+  margin-bottom: 77px;
+}
+
+.product-work-btn {
+  border-radius: 8px;
+  min-width: 224px;
+  min-height: 44px;
+  background-color: #02897a;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 115px;
+}
+
+/* How product work styles end */
+
+/* Join thousand of other who have already received offers styles start */

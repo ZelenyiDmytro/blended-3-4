@@ -1,214 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wdth,wght@75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="./index.html" class="link">
-                <img src="./images/logo.png" alt="company logo" width="40" height="36">Product
-            </a>
-            <ul>
-                <li><a href="./index.html" class="link">Product</a></li>
-                <li><a href="./pricing.html" class="link">Pricing</a></li>
-                <li><a href="./customer.html" class="link">Customers</a></li>
-                <li><a href="./index.html" class="link">Resources</a></li>
-            </ul>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="link header-logo">
+            <img
+              class="header-logo-image"
+              src="./images/logo.png"
+              alt="company logo"
+              width="40"
+              height="36"
+            /><span class="header-logo-text">Product</span>
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a href="./index.html" class="link list-button">Product</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="./customer.html" class="link list-button"
+                ><span class="list-item-product">Customers</span></a
+              >
+            <li class="header-nav-list-item">
+              <a href="./pricing.html" class="link list-button">Pricing</a>
+            </li>
+            </li>
+            <li class="header-nav-list-item">
+              <a href="./index.html" class="link list-button">Resources</a>
+            </li>
+          </ul>
         </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
+        <ul class="sign-buttons">
+          <li class="sign-buttons-items">
+            <button class="sign-in-button" type="button">Sign In</button>
+          </li>
+          <li class="sign-buttons-items">
+            <button class="sign-up-button" type="button">Sign Up</button>
+          </li>
         </ul>
+      </div>
     </header>
     <main>
+      <!--Початок секції Our Clients-->
 
-        <!--Початок секції Our Clients-->
+      <section>
+        <div class="container our-clients-container">
+          <h1 class="our-clients-title">Our Clients</h1>
+          <ul class="our-clients-list">
+            <li class="our-clients-list-item">
+              <svg class="airbnb-icon" width="159" height="50">
+              <use href="./images/icons.svg#icon-Airbnb-Logo"></use>
+              </svg>
+            </li>
+            <li class="our-clients-list-item">
+              <svg class="google-icon" width="146" height="50">
+              <use href="./images/icons.svg#icon-Google-Logo"></use>
+              </svg>
+            </li>
+            <li class="our-clients-list-item">
+              <svg class="microsoft-icon" width="213" height="44">
+              <use href="./images/icons.svg#icon-Microsoft-Logo"></use>
+              </svg>
+            </li>
+            <li class="our-clients-list-item">
+              <svg class="fedex-icon" width="140" height="42"> 
+              <use href="./images/icons.svg#icon-FedEx-Logo"></use>
+              </svg>
+          </li>
+          </ul>
+        </div>
+      </section>
 
-        <section>
-            <h1>Our Clients</h1>
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-            </ul>
-        </section>
+      <!--Кінець секції Our clients-->
 
-        <!--Кінець секції Our clients-->
+      <!--Початок секції Why choose product-->
 
-        <!--Початок секції Why choose product-->
+      <section>
+       <div class="container why-choose-product-container">
+          <h2 class="why-choose-title">Why Choose Product?</h2>
+          <ul class="why-choose-list">
+            <div class="why-choose-list-box">
+              <li class="why-choose-list-item">
+                <svg class="why-choose-list-icons" width="50" height="50">
+                  <use href="./images/icons.svg#icon-cursor-icon"></use>
+                </svg>
+                <h3 class="why-choose-subtitle">Special Business</h3>
+                <p class="why-choose-description">
+                  Product helps you see how many more days you need to work to reach
+                  your financial goal for the month and year.
+                </p>
+              </li>
+            </div>
+            <div class="why-choose-list-box">
+              <li class="why-choose-list-item">
+                <svg class="why-choose-list-icons" width="50" height="50">
+                  <use href="./images/icons.svg#icon-wave-icon"></use>
+                </svg>
+                <h3 class="why-choose-subtitle">Instant Result</h3>
+                <p class="why-choose-description">
+                  Product helps you see how many more days you need to work to reach
+                  your financial goal for the month and year.
+                </p>
+              </li>
+            </div>
+            <div class="why-choose-list-box">
+              <li class="why-choose-list-item">
+                <svg class="why-choose-list-icons" width="50" height="50">
+                  <use href="./images/icons.svg#icon-heart-icon"></use>
+                </svg>
+                <h3 class="why-choose-subtitle">Fastest way to organize</h3>
+                <p class="why-choose-description">
+                  Product helps you see how many more days you need to work to reach
+                  your financial goal for the month and year.
+                </p>
+              </li>
+            </div>
+          </ul>
+       </div>
+      </section>
 
-        <section>
-            <h2>Why Choose Product?</h2>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <h3>Special Business</h3>
-                    <p>
-                        Product helps you see how many
-                        more days you need to work
-                        to reach your financial goal
-                        for the month and year.
-                    </p>
+      <!--Кінець секції Why choose product-->
+
+      <!--Початок секції How product work-->
+
+      <section>
+        <div class="container product-work-container">
+          <h2 class="product-work-title">How Product Work?</h2>
+          <ul class="product-work-list">
+            <li class="product-work-list-item">
+              <div class="product-work-list-image"><img src="./images/mac1.png" alt="macbook1" width="500" /></div>
+              <div class="product-work-list-text">
+                <p class="text-part-step">STEP 1</p>
+                <h3 class="text-part-subtitle">Apply for a product</h3>
+                <p class="text-part-description first">
+                  Completing our easy step-by-step application form gives you access
+                  to multiple business with multiple products. We analyse your
+                  business through our proprietary credit analysis technology
+                </p>
+              </div>
+            </li>
+            <li class="product-work-list-item-reverse">
+              <div class="product-work-list-image-reverse"><img src="./images/mac2.png" alt="macbook2" width="500" /></div>
+              <div class="product-work-list-text-reverse">
+                <p class="text-part-step">STEP 2</p>
+                <h3 class="text-part-subtitle">Pay fully refundable</h3>
+                <p class="text-part-description">
+                  Product will contactting you instantly to receive payment of the
+                  Application Fee. if no offer of product is available, your fee
+                  will be fully refunded.
+                </p>
+              </div>
+            </li>
+            <li class="product-work-list-item third">
+              <div class="product-work-list-image"><img src="./images/mac3.png" alt="macbook3" width="500" /></div>
+              <div class="product-work-list-text-third">
+                <p class="text-part-step">STEP 3</p>
+                <h3 class="text-part-subtitle">Completion</h3>
+                <p class="text-part-description third">
+                  Product will continue to liase between borrower and manager to
+                  procees and complete a quick and efficient settlement
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button class="product-work-btn" type="button">Get in touch with us</button>
+        </div>
+      </section>
+
+      <!--Кінець секції How product work-->
+
+      <!--Початок секції Join thousand of other who have already received offers-->
+
+      <section>
+        <div class="container join-container">
+          <h3 class="join-title">Join thousand of other who have already received offers</h3>
+          <ul class="join-list">
+            <li class="join-common-list">
+              <img class="join-images"
+                src="./images/Image Placeholder.png"
+                alt="image Placeholder"
+                width="150"
+              />
+              <h4 class="join-subtitles">Business</h4>
+              <ul class="join-first-list">
+                <li class="join-first-list-item">
+                  <p class="join-first-list-item-text">Cash Flow</p>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>Instant Result</h3>
-                    <p>
-                        Product helps you see how many
-                        more days you need to work
-                        to reach your financial goal
-                        for the month and year.
-                    </p>
+                <li class="join-first-list-item">
+                  <p class="join-first-list-item-text">Asset Backed</p>
                 </li>
-                <li>
-                    <img src="" alt="">
-                    <h3>Fastest way to organize</h3>
-                    <p>
-                        Product helps you see how many
-                        more days you need to work
-                        to reach your financial goal
-                        for the month and year.
-                    </p>
+                <li class="join-first-list-item">
+                  <p class="join-first-list-item-text">Receivables Finance</p>
                 </li>
-            </ul>
-        </section>
-
-        <!--Кінець секції Why choose product-->
-
-        <!--Початок секції How product work-->
-
-        <section>
-            <h2>How Product Work?</h2>
-            <ul>
-                <li>
-                    <img src="./images/mac1.png" alt="macbook1" width="500">
-                    <p>STEP 1</p>
-                    <h3>Apply for a product</h3>
-                    <p>
-                        Completing our easy step-by-step application form gives you access to multiple business with multiple products. We
-                        analyse your business through our proprietary credit analysis technology
-                    </p>
+                <li class="join-first-list-last-item">
+                  <p class="join-first-list-last-item-text">Find the best business product</p>
                 </li>
-                <li>
-                    <img src="./images/mac2.png" alt="macbook2" width="500">
-                    <p>STEP 2</p>
-                    <h3>Pay fully refundable</h3>
-                    <p>
-                        Product will contactting you instantly to receive payment of the Application Fee. if no offer of product is available,
-                        your fee will be fully refunded.
-                    </p>
+              </ul>
+            </li>
+            <li class="join-common-list">
+              <img class="join-images"
+                src="./images/Image Placeholder1.png"
+                alt="image Placeholder1"
+                width="150"
+              />
+              <h4 class="join-subtitles">Enterprise</h4>
+              <ul class="join-second-list">
+                <li class="join-second-list-item">
+                  <p class="join-second-list-item-text">Site Acquisition</p>
                 </li>
-                <li>
-                    <img src="./images/mac3.png" alt="macbook3" width="500">
-                    <p>STEP 3</p>
-                    <h3>Completion</h3>
-                    <p>
-                        Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement
-                    </p>
-                    <button type="button">Get in touch with us</button>
+                <li class="join-second-list-item">
+                  <p class="join-second-list-item-text">Bridge</p>
                 </li>
-            </ul>
-        </section>
-
-        <!--Кінець секції How product work-->
-
-        <!--Початок секції Join thousand of other who have already received offers-->
-
-        <section>
-            <h3>
-                Join thousand of other who have
-                already received offers
-            </h3>
-            <ul>
-                <li>
-                    <img src="./images/Image Placeholder.png" alt="image Placeholder" width="150">
-                    <h4>Business</h4>
-                    <ul>
-                        <li>
-                            <p>Cash Flow</p>
-                        </li>
-                        <li>
-                            <p>Asset Backed</p>
-                        </li>
-                        <li>
-                            <p>Receivables Finance</p>
-                        </li>
-                        <li>
-                            <p>Find the best business product</p>
-                        </li>
-                    </ul>
+                <li class="join-second-list-item">
+                  <p class="join-second-list-item-text">Development Financing</p>
                 </li>
-                <li>
-                    <img src="./images/Image Placeholder1.png" alt="image Placeholder1" width="150">
-                    <h4>Enterprise</h4>
-                    <ul>
-                        <li>
-                            <p>Site Acquisition</p>
-                        </li>
-                        <li>
-                            <p>Bridge</p>
-                        </li>
-                        <li>
-                            <p>Development Financing</p>
-                        </li>
-                        <li>
-                            <p>Find the best business product</p>
-                        </li>
-                    </ul>
+                <li class="join-second-list-last-item">
+                  <p class="join-second-list-last-item-text">Find the best business product</p>
                 </li>
-            </ul>
-        </section>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <!--Кінець секції Join thousand of other who have already received offers-->
+      <!--Кінець секції Join thousand of other who have already received offers-->
 
-        <!--Початок секції promo-->
+      <!--Початок секції promo-->
 
-        <section>
-            <h3 hidden>Promo</h3>
-            <p>Join 100 Compannies who boost their business with Product</p>
-            <button type="button">Get This</button>
-            <img src="./images/promo-image.png" alt="promo-image" width="361" height="341" />
-        </section>
+      <section>
+        <h3 hidden>Promo</h3>
+        <p>Join 100 Compannies who boost their business with Product</p>
+        <button type="button">Get This</button>
+        <img
+          src="./images/promo-image.png"
+          alt="promo-image"
+          width="361"
+          height="341"
+        />
+      </section>
 
-        <!--Кінець секції promo-->
-
+      <!--Кінець секції promo-->
     </main>
     <footer>
-        <a href="./index.html" class="link"><img src="./images/logo.png" alt="logo-picture" width="40" height="36" />Product</a>
-        <p>Resource</p>
-        <ul>
-            <li>
-                <p>About Us</p>
-            </li>
-            <li>
-                <p>Blog</p>
-            </li>
-            <li>
-                <p>Contact</p>
-            </li>
-            <li>
-                <p>FAQ</p>
-            </li>
-        </ul>
-        <p>Legal Stuff</p>
-        <ul>
-            <li>
-                <p>Disclaimer</p>
-            </li>
-            <li>
-                <p>Financing</p>
-            </li>
-            <li>
-                <p>Privacy Policy</p>
-            </li>
-        </ul>
-        <p>knowing you're always on the best energy deal.</p>
-        <button type="button">Sign up Now</button>
-        <p>Made With Love By Figmaland All Right Reserved</p>
+      <a href="./index.html" class="link"
+        ><img
+          src="./images/logo.png"
+          alt="logo-picture"
+          width="40"
+          height="36"
+        />Product</a
+      >
+      <p>Resource</p>
+      <ul>
+        <li>
+          <p>About Us</p>
+        </li>
+        <li>
+          <p>Blog</p>
+        </li>
+        <li>
+          <p>Contact</p>
+        </li>
+        <li>
+          <p>FAQ</p>
+        </li>
+      </ul>
+      <p>Legal Stuff</p>
+      <ul>
+        <li>
+          <p>Disclaimer</p>
+        </li>
+        <li>
+          <p>Financing</p>
+        </li>
+        <li>
+          <p>Privacy Policy</p>
+        </li>
+      </ul>
+      <p>knowing you're always on the best energy deal.</p>
+      <button type="button">Sign up Now</button>
+      <p>Made With Love By Figmaland All Right Reserved</p>
     </footer>
-</body>
+  </body>
 </html>
