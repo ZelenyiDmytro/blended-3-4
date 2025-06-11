@@ -787,6 +787,24 @@ button {
   padding: 11px 18px;
 }
 
+.price-section-title.pricing-page {
+  margin-bottom: 16px;
+}
+
+.price-section-description.pricing-page {
+  margin-bottom: 49px;
+}
+
+.price-section-title-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* price table section end */
 
 /* what clients says section styles start */
@@ -1390,3 +1408,161 @@ button {
 }
 
 /* promo section styles end */
+
+/* enterpise-section styles start */
+
+.container.enterprise-container {
+  padding-top: 53px;
+  padding-bottom: 51px;
+  max-width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    #f6f6f6 0%,
+    rgba(246, 246, 246, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enterprise-section-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.enterprise-section-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.enterprise-section-description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.enterprise-section-button {
+  background-color: #02897a;
+  border-radius: 8px;
+  min-width: 224px;
+  min-height: 44px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 11px 18px;
+}
+
+/* enterpise-section styles end */
+
+/* Product is being used with great effects alongside section styles start */
+
+.product-is-used-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-is-used-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-is-used-image-thumb {
+  margin-right: 60px;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+.product-is-used-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 56px;
+}
+
+.product-is-used-image-and-titles {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.product-is-used-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.product-is-used-subtitles {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+.product-is-used-descriptions {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+/* Product is being used with great effects alongside section styles end */
+
+/* Frequently asked question section styles start */
+
+.question-section-container {
+  padding-top: 75px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-section-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.question-section-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.question-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.question-section-list-item {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.question-section-question {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.question-section-list-titles {
+  font-weight: 500;
+  font-size: 18px;
+}
+.question-section-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+  max-width: 920px;
+}
